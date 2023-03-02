@@ -28,11 +28,15 @@ QUERY = "http://localhost:8080/query?id={}"
 # 500 server request
 N = 500
 
+# this is my test to make sure commit is working 
+
+# anotehr test to make sure
+
 
 def getDataPoint(quote):
     """ Produce all the needed values to generate a datapoint """
     """ ------------- Update this function ------------- """
-    # this is a test to see if github gets updated
+    
     stock = quote['stock']
     bid_price = float(quote['top_bid']['price'])
     ask_price = float(quote['top_ask']['price'])
